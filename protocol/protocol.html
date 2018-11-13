@@ -1,81 +1,257 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PROTOCOL</title>
-    <STYle>
-        div a:link {
-            text-decoration: none;
-            text-align: center;
-            font-size: 30;
-        }
-        div {
-            background-color: antiquewhite;
-            margin: 10 auto;
-        }
-    </STYle>
+    <title>大王一下，你就有钱了</title>
 </head>
 
 <body>
-    <div class="font20 red">
-        <a href="hsinaif://share">分享功能</a>
-    </div>
-    <div>
-        <a href="hsinaif://loadingShow">展示加载框(接金钱)</a>
-    </div>
-    <div>
-        <a href="hsinaif://loadingClose">隐藏加载框(接金钱)</a>
-    </div>
-    <div>
-        <a href="hsinaif://loadingDialogShow">展示加载框(菊花)</a>
-    </div>
-    <div>
-            <a href="hsinaif://loadingDialogClose">展示加载框(菊花)</a>
-        </div>
-    <div>
-            <a href="hsinaif://openDailog?message=测试地址&title=哈哈&btn=你好">展示加载框(菊花)</a>
-        </div>
-    <div>
-        <a href="hsinaif://openWin?url=http://www.baidu.com&title=百度一下&tag=&refresh=true&open_inner=true">打开新的窗口(openWin)</a>
-    </div>
-    <div>
-            <a href="hsinaif://toast?msg=haahaahsd">toast</a>
-    </div>
 
-    <div>
-            <a href="hsinaif://checkVersion">检查更新</a>
-    </div>
-    <div>
-            <a href="hsinaif://openFullWin?url=http://www.baidu.com&title=百度一下&tag=&refresh=true&open_inner=true">全屏打开vc</a>
-    </div>
-    <div>
-            <a href="kSchemaSinaif_closeBackItem">关闭两次页面</a>
-    </div>
-    <div>
-            <a href="hsinaif://openError">显示错误页</a>
-    </div>
 
-    <div>
-            <a href="hsinaif://openWeChat">打开微信</a>
-    </div>
-    <div>
-            <a href="hsinaif://followWechat">关注微信</a>
-    </div>
-    <div>
-            <a href="hsinaif://tofeedback">意见反馈</a>
-    </div>
-    <div>
-        <a href="hsinaif://queryProgress">查看进度</a>
-    </div>
-    <div>
-            <a href="hsinaif://applyAgain">立即申请</a>
-        </div>
-        <div>
-                <a href="hsinaif://setTitle?title=ceshi">设置标题</a>
-            </div>
+<div>
+    <a href="hsinaif://showSmsView?callbackName=complete&mobile=13530986772&type=1&number=4&url=www.baidu.com&params={'mobile':'13530986772','smsType':'1000'}&key=countdowntime&time=45&uiType=2">H5验证倒计时</a>
+</div>
+<hr/>
+<div><a href="hsinaif://request?url=https://api.sinawallent.com/app/userBase/saveOrUpdateUserInfo">第三步</a>
+</div>
+<div><a href="hsinaif://removeStorage?key=cache_third_step_request">删除缓存第三部请求URL</a></div>
+
+<hr/>
+
+<div><a href="hsinaif://goNative?pkg=error">显示错误页</a></div>
+<div>
+    <a href="hsinaif://activityView?url=http://192.168.1.25/data/creditbank_step_siyh_1000102.html?stageid=2&batchid=152972307192448747&stepid=7009001&productids=1000102&parentid=0000007&banktype=2&orderid=152972168110899433&time=1529723071924&type=open&title=添加信用卡&refresh=true">添加信用卡</a>
+</div>
+<div><a href="hsinaif://goNative?pkg=login&url=http://m.baidu.com">H5跳转到登陆</a></div>
+<div><a href="hsinaif://notify?data=xxx&tag=yyy">H5通知机制</a></div>
+<div><a href="hsinaif://getAddressByCountryCode?callbackName=complete&countryCode=333333&type=city">反查省市431200</a>
+</div>
+<div><a href="hsinaif://getVisitUrl?callbackName=complete&pageName=ONLINESERVICE">获取在线客服地址</a></div>
+<div><a href="hsinaif://getVisitUrl?callbackName=complete&pageName=10082&type=agreement">10082</a>
+</div>
+<div>
+    <a href="hsinaif://setWebAttribute?intercept=false&isFull=false&title=标题测试&titleBgColor=ff000000&titleColor=ffffffff">设置窗口属性</a>
+</div>
+<div>
+    <a href="hsinaif://setWebTitleAttribute?callbackName=callphone&btnType=text&btnVal=联系客服&params=13866668888">设置WebView右上角按钮</a>
+</div>
+<div>
+    <a href="hsinaif://setWebTitleAttribute?callbackName=callphone&btnType=img&btnVal=http://6037982.s21i-6.faiusr.com/2/ABUIABACGAAg7u7VvAUovKuThQcw9AM4rAI.jpg">设置WebView右上角按钮</a>
+</div>
+<div><a href="hsinaif://permission?callbackName=complete&scope=location">申请定位权限</a></div>
+<div>
+    <a href="hsinaif://dialogView?title=温馨提示&msg=确认是否要发起还款？&leftColor=999999&rightColor=030303&callbackName=callBackAction_10">单个按钮弹窗</a>
+</div>
+<div><a href="hsinaif://launchApp?callbackName=complete&scheme=weixin://&pkgName=com.tencent.mm">打开微信</a>
+</div>
+<div><a href="hsinaif://getInitData?callbackName=complete">获取初始化数据去除省市区</a></div>
+
+<hr/>
+
+<div>
+    <a href="hsinaif://activityView?url=http://192.168.1.20:8084/pages/publicInfo/index.html&type=open&title=身份证信息&isFull=false&isCloseCurrent=false&refresh=false">身份证信息原生标题</a>
+</div>
+<div>
+    <a href="hsinaif://activityView?url=http://192.168.1.20:8084/pages/publicInfo/index.html&type=open&title=身份证信息&isFull=true&isCloseCurrent=false&refresh=false&isTrans=true">身份证信息透明界面</a>
+</div>
+<div>
+    <a href="hsinaif://activityView?url=http://192.168.1.20:8084/pages/publicInfo/index.html&type=open&title=身份证信息&isFull=true&isCloseCurrent=false&refresh=false&isTrans=false">身份证信息全屏</a>
+</div>
+<hr/>
+<div>
+    <a href="hsinaif://activityView?url=http%3A%2F%2F192.168.1.20%3A8084%2Fpages%2Fhome%2Findex.html%23%2Flevel3&type=open&title=身份证信息&isFull=true&isCloseCurrent=false&refresh=false&isTrans=false">H5头部深入状态栏</a>
+</div>
+<hr/>
+
+<div>
+    <a href="hsinaif://activityView?url=http%3A%2F%2F192.168.6.142%3A8080%2Fpages%2Ftest%23%2FchooseImg&type=open&title=身份证信息&isFull=true&isCloseCurrent=false&refresh=false&isTrans=false">显示本地图片</a>
+</div>
+<div><a href="hsinaif://getInitData?callbackName=complete&type=20011002">获取学历</a></div>
+<div><a href="hsinaif://getInitData?callbackName=complete">获取初始化数据</a></div>
+<div>
+    <a href="hsinaif://pickerView?&callbackName=complete&dataSource=app&dataType=20011002&title=婚姻状况">婚姻状况</a>
+</div>
+
+<hr/>
+<div>
+    <a href="hsinaif://activityView?url=http://192.168.8.44:8222/index.html&type=open&title=腾讯帝国&isFull=true&isCloseCurrent=false&refresh=false&isTrans=false">并发测试</a>
+</div>
+<hr/>
+
+<div><a href="hsinaif://loadingView?type=1">加载原生Dialog</a></div>
+<div><a href="hsinaif://loadingView?type=1&msg=我爱你中国">加载原生Dialog 我爱你中国</a></div>
+<div><a href="hsinaif://loadingView?type=2">WebView Dialog</a></div>
+<div><a href="hsinaif://loadingView?type=1&close=true">关闭Web Dialog</a></div>
+<div><a href="hsinaif://loadingView?type=2&close=true">关闭Web Loading</a></div>
+<hr/>
+
+<div><a href="hsinaif://getStorage?key=woshikongzhizhen">获取不存在的键</a></div>
+<hr/>
+<div><a href="hsinaif://goMarket">去应用市场</a></div>
+<div><a href="hsinaif://showHomeView?refresh=true">跳转到首页</a></div>
+<div><a href="hsinaif://refreshHome?refresh=true">H5通知首页刷新</a></div>
+
+<hr/>
+<div><a href="hsinaif://request?url=http://192.168.8.46:8091/aid/actexception">模拟500错误</a></div>
+<div><a href="hsinaif://request?url=http://192.168.8.46:8091/aid/acttest&code=404">模拟404封装错误</a>
+</div>
+<hr/>
+
+<h3>接口联调</h3>
+<div>
+    <a href="hsinaif://request?url=http://192.168.1.25:10000/usercenter/user/suggest&json=false&suggestcontent=为什么征信不通过呀&contactway=13666666666&helptypeid=222">意见反馈接口</a>
+</div>
+<div>
+    <a href="hsinaif://request?url=http://192.168.1.25:10000/usercenter/user/msglist&json=false&msgtype=1&pageIndex=1&pageSize=15">消息列表接口</a>
+</div>
+<div><a href="hsinaif://request?url=http://192.168.1.25:10000/usercenter/sys/checkUpdate">检查版本更新</a>
+</div>
+<div><a href="hsinaif://request?url=http://192.168.1.25:10000/usercenter/sys/msglist">帮助中心-公告信息</a>
+</div>
+<div>
+    <a href="hsinaif://request?url=http://192.168.1.25:10000/usercenter/sys/h5/helptypelist&devicetype=1&pageIndex=0&pageSize=20&json=false">问题分类信息查询</a>
+</div>
+<div>
+    <a href="hsinaif://request?url=http://192.168.1.25:10000/usercenter/sys/h5/helplist&helptypeid=1&pageIndex=0&pageSize=20&json=false">问题列表信息查询</a>
+</div>
+<div>
+    <a href="hsinaif://request?url=http://192.168.1.25:10000/usercenter/sys/h5/helpview/111&json=false">问题详情查询</a>
+</div>
+<hr/>
+
+<h3>协议联调</h3>
+<div>
+    <a href="hsinaif://showSmsView?callbackName=complete&mobile=13530986772&type=1&number=4&url=www.baidu.com&params={'mobile':'13530986772','smsType':'1000'}">弹窗短信验证码弹窗1</a>
+</div>
+<div>
+    <a href="hsinaif://showSmsView?callbackName=complete&mobile=13530986772&type=1&number=4&uiType=2&url=www.baidu.com&time=120">弹窗短信验证码弹窗2</a>
+</div>
+<div><a href="hsinaif://getUserInfo">获取用户信息</a></div>
+<div><a href="hsinaif://goNative?pkg=cashpassword">设置交易密码</a></div>
+<div>
+    <a href="hsinaif://storeStatistics?callbackName=complete&action=show&currPage=login.html&currPageParams=%7B%22pageType%22:%22register%22%7D&currEvent=login.html&currEventParams=%7B%22loginType%22:%22password%22%7D&reference=register.html">保存事件统计</a>
+</div>
+<div><a href="hsinaif://getStatusHeight?callbackName=complete">获取状态栏高度</a></div>
+<div><a href="hsinaif://setStatusColor?color=DB7093">设置状态栏颜色</a></div>
+<div><a href="hsinaif://getHomeData">获取首页状态数据</a></div>
+<div><a href="hsinaif://setStorage">设置缓存</a></div>
+<div><a href="hsinaif://getStorage">获取缓存</a></div>
+
+<hr/>
+<div>
+    <a href="hsinaif://activityView?url=file:///android_asset/demo.html&type=open&title=百度一下&isFull=false&isCloseCurrent=false&refresh=false">open
+        new window</a></div>
+<br/>
+<div>
+    <a href="hsinaif://activityView?url=http://192.168.1.20:10001/api/static/pages/activity/Invitation/Popup.html&type=open&title=微博天下&isFull=true&isCloseCurrent=false&refresh=false&isTrans=true">open
+        new trans window</a></div>
+<br/>
+<div>
+    <a href="hsinaif://activityView?url=http://www.qq.com&type=open&title=腾讯帝国&isFull=true&isCloseCurrent=false&refresh=false&isTrans=false">open
+        new full window</a></div>
+<br/>
+
+<hr/>
+
+<div>
+    <a href="hsinaif://dialogView?msg=仅需2分钟，最高可获得200000额度，是否确认取消？&title=温馨提示&leftBtn=残忍离开&rightBtn=继续申请&isBackCancel=false&callbackName=complete">带确认、取消按钮弹窗</a>
+</div>
+<div>
+    <a href="hsinaif://dialogView?msg=恭喜您已经全部还清账单啦&title=温馨提示&leftBtn=确认&isBackCancel=false&callbackName=complete">只带确认按钮弹窗</a>
+</div>
+
+<hr/>
+<input type="text"/>
+<hr/>
+
+<div><a href="hsinaif://toast?msg=请输入您的手机号码">弹toast短</a></div>
+<div><a href="hsinaif://toast?msg=验证码获取超过当日次数限制请明天再试">弹toast长</a></div>
+<div>
+    <a href="hsinaif://pickerView?&callbackName=complete&dataSource=H5&dataArr=['程序员','产品经理']&title=职业选择&select=产品经理">页面底部弹窗，H5数据来源</a>
+</div>
+<div>
+    <a href="hsinaif://pickerView?&callbackName=complete&dataSource=H5&dataArr=['程序员1','程序员2','产品1','产品2','产品3','产品4','产品5']&title=职业选择&select=产品4">页面底部弹窗，多数据</a>
+</div>
+
+<hr/>
+<div><a href="hsinaif://setClipboardData?&callbackName=complete&data=大王贷款">设置剪贴板内容：例如“大王贷款”</a>
+</div>
+<div><a href="hsinaif://getClipboardData?&callbackName=complete">获取剪贴板内容</a></div>
+<div><a href="hsinaif://getNetwork?&callbackName=complete">获取网络状态</a></div>
+<div><a href="hsinaif://makePhoneCall?&phoneNumber=18536975246">拨打电话：例如18536975246</a></div>
+<div><a href="hsinaif://chooseContacts?&callbackName=complete">选择联系人</a></div>
+<div><a href="hsinaif://chooseImage?&callbackName=complete">选择图片</a></div>
+<div>
+    <a href="hsinaif://launchApp?callbackName=complete&scheme=sinaifcredit://main">打开第三方应用(新浪有还)</a>
+</div>
+<div><a href="hsinaif://launchApp?callbackName=complete&scheme=sinaifkadai://main">打开第三方应用(新浪卡贷)</a>
+</div>
+
+<div>
+    <a href="hsinaif://share?isSharePanel=true&message=邀请好友，送88元现金&title=邀请好友&url=http://www.baidu.com&image=http://image.baidu.com/img/logo.png">显示分享</a>
+</div>
+<div>
+    <a href="hsinaif://share?isSharePanel=false&shareType=1&message=邀请好友，送88元现金&title=邀请好友&url=http://www.baidu.com&image=http://image.baidu.com/img/logo.png">隐示分享,例如朋友圈</a>
+</div>
+<div><a href="hsinaif://chooseAddress?&callbackName=complete">选择省市区</a></div>
+<div><a href="hsinaif://chooseCity?&callbackName=complete">选择省市</a></div>
+<div><a href="hsinaif://scanBankCard?&callbackName=complete">扫描银行卡</a></div>
+<div><a href="hsinaif://scanIDCard?&callbackName=complete&type=front">扫描身份证【正面】</a></div>
+<div><a href="hsinaif://scanIDCard?&callbackName=complete&type=back">扫描身份证【反面】</a></div>
+<div><a href="hsinaif://livingBodyCheck?&callbackName=complete&livingType=0">依图活体检查</a></div>
+div><a href="hsinaif://livingBodyCheck?&callbackName=complete&livingType=1">face++活体检查</a></div>
+<div><a href="hsinaif://recordVideoToBoc?&callbackName=complete">影像资料录制</a></div>
+
+<hr/>
+<div><a href="hsinaif://getAddressByCountryCode?callbackName=complete&countryCode=440305">区县code
+    440305 查询省市区</a></div>
+<div>
+    <a href="hsinaif://chooseAddress?callbackName=complete&provinceCode=440000&cityCode=440300&countryCode=440305">默认选中省市区</a>
+</div>
+<hr/>
+
+<div>
+    <a href="hsinaif://downloadFile?filePath=http://imtt.dd.qq.com/16891/F84A6D1ED2A7E79D7501A5999D559670.apk&callbackName=response&type=2">显示原生下载进度</a>
+</div>
+<div>
+    <a href="hsinaif://downloadFile?filePath=http://imtt.dd.qq.com/16891/F84A6D1ED2A7E79D7501A5999D559670.apk&callbackName=response&type=1">显示原生下载Dialog转圈</a>
+</div>
+<div>
+    <a href="hsinaif://uploadFile?filePath=/storage/emulated/0/SinaSupLoan/cache/video/VIDEO_20180420_172231.mp4&callbackName=response&type=2">显示原生上传进度</a>
+</div>
+
+<hr/>
+
+<div><a href="hsinaif://getUserInfo?refresh=true">获取最新用户数据</a></div>
+<div><a href="hsinaif://showHomeView?tabIndex=1&refresh=true">跳转到指定tab并刷新首页</a></div>
+<div>
+    <a href="hsinaif://activityView?url=http://www.baidu.com&type=open&tag=third&title=身份证信息&isFull=false&isCloseCurrent=false&refresh=false">加载第三方页面</a>
+</div>
+
+<div></div>
+
+
+<script type="text/javascript">
+        window.sendData = function (data, callbackname) {
+            if(data.indexOf("%22") == -1){
+                console.log("&ndash;&gt;没有被转译");
+            }
+            callbackname(data);
+        };
+        function complete(data) {
+            alert(data);
+            console.log(data);
+        }
+        function response(data) {
+            console.log(data);
+        }
+        function callBackAction0(data){
+            alert(data);
+            console.log(data);
+        }
+
+</script>
+
 </body>
-
 </html>
